@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms | Registration</title>
+</head>
+<body bgcolor="#c6ecc6">
+    <br>
+    <br>
+    <form action="Confirmregistration.html">
+        <table align="center"  cellpadding="15">
+            <tr>
+                <td colspan="2">
+                    <h1>
+                        Create an account
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <fieldset>
+                        <legend>Personal data</legend>
+                    Your full name :<input type="text" required> 
+                    <br>
+                    <br>
+                    Your phone number:<input type="text" required>
+                    </fieldset>
+               </td>
+              
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <fieldset>
+                    <legend>Course selection</legend>
+                    Choose the training program
+                <br>
+                <br>
+                <select>
+                    <option>HTML Basic Course</option> 
+                    <option>CSS Basics Course</option> 
+                </select>
+                <br>
+                <select>
+                    <optgroup label="Morning">
+                        <option >09:00</option>
+                        <option >10:00</option>
+                    </optgroup>
+                    <optgroup label="Evening">
+                        <option >19:00</option>
+                        <option >20:00</option>
+                    </optgroup>    
+                </select>
+        </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="2">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I accept the <a href="terms.html" target="_blank">terms</a> and conditions </label>
+
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <br>
+                    <button>APPLY</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
