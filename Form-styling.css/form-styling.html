@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form styling</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            text-align: center;
+        }
+        #mainform{
+            
+            margin: 200px;
+            margin-top: 50px;
+            padding: 25px;
+            background-color: rgb(31, 211, 151);
+            border: 2px solid green;
+            border-radius: 50px;
+
+        }
+        .formheading{
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            
+        }
+
+        .termsbox{
+            width: 12px;
+            height: 12px;
+        }
+
+        .terms{
+            font-size :15px;
+            padding: 5px;
+            margin-right:120px ;
+        }
+
+        .inputemail{
+            border: 4px solid rgba(166, 223, 60, 0.986);
+            border-radius: 20px;
+            font-size: 15px;
+            padding: 5px;
+            width: 240px;
+            padding-left: 30px;
+            background-image: url(img/at.svg);
+            background-repeat: no-repeat;
+            background-size: 25px 25px;
+            
+        }
+        .button{
+            background-color: rgba(166, 223, 60, 0.986);
+            color: transparent;
+            font-size: 15px;
+            padding: 10px;
+            background-image: url(img/email-fast.svg);
+            background-size: 40px 40px;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 1px solid ;
+            border-radius: 10px;
+            margin-left: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="mainform">
+        <h2 class="formheading">Join our newsletter</h2>
+
+        <label >
+            <input type="checkbox" class="termsbox" required>
+            <span class="terms" > I agree with terms and conditions</span>
+            <br><br>
+        </label>
+
+        <label>
+            <input type="text" placeholder="exemple@mail.com" autofocus  class="inputemail" required>
+        </label>
+
+        <button class="button">
+            Next
+        </button>
+    </form>
+    
+</body>
+</html>
