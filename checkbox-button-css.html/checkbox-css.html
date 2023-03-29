@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CHECK BOX STYLING</title>
+    <style>
+        #checkbox{
+            display: none;           
+        }
+        .circle{
+            border: 3px solid gray;
+            border-radius: 40px;
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            transform: translateY(7px);
+       }
+        input:checked + .circle{
+        border: 3px solid green;
+        background-image: radial-gradient(green 50%, white 55%);
+       }
+    </style>
+</head>
+<body>
+    <form action="" class>
+        <label>
+            
+            <input type="checkbox" id="checkbox">
+                <div class="circle"></div>
+                I agree with terms and conditions.
+        </label>
+    </form>
+    
+</body>
+</html>
